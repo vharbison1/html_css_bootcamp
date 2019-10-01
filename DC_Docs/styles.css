@@ -6,6 +6,11 @@ html,body
     font-family: sans-serif;
 }
 
+input[type="search" i] {
+    -webkit-appearance: searchfield;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
 
 #sidebar 
 {
@@ -21,6 +26,7 @@ ul#sidebar-navigation
     font-size: 21px;
     padding:0px;
 }
+
 
 ul#sidebar-navigation li {
     padding-top: 10px;
