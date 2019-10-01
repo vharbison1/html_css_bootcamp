@@ -1,0 +1,75 @@
+html,body 
+{
+    display:flex;
+    height:100%;
+    width:100%;
+    font-family: sans-serif;
+}
+
+
+#sidebar 
+{
+    width:20%;
+    background-color:grey;
+    padding: 23px 49px 20px 26px;
+}
+
+ul#sidebar-navigation
+{
+    list-style-type: none;
+    color:lightgray;
+    font-size: 21px;
+    padding:0px;
+}
+
+ul#sidebar-navigation li {
+    padding-top: 10px;
+}
+
+ul#sidebar-navigation li a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+ul#sidebar-navigation li a:hover {
+    color: beige;
+    transition-delay: .1s;
+}
+
+.sidebar-title
+{
+    color:white;
+}
+
+#sidebar-footer
+{
+    vertical-align: text-bottom;
+    color:lightgoldenrodyellow;
+    position: absolute;
+    bottom: 0;
+}
+
+main 
+{
+   width:100%;
+   padding:23px 49px 20px 26px;
+   background-color:lightgray;
+}
+
+.digitalcraft-title 
+{
+    padding-left: 20px;
+    font-size: 38px;
+}
+
+#main-body
+{
+    margin-top:50px;
+}
+
+blockquote
+{
+    background-color: lavender;
+    padding: 10px;
+    border-left: 5px solid #b8b0b0;
+}
